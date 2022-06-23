@@ -10,8 +10,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace FPTLibrary.Data.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20220623152123_first")]
-    partial class first
+    [Migration("20220623155612_initial")]
+    partial class initial
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -434,21 +434,21 @@ namespace FPTLibrary.Data.Migrations
                         new
                         {
                             Id = "1",
-                            ConcurrencyStamp = "12cddd64-ef6a-4464-964a-b3ab7fbc7612",
+                            ConcurrencyStamp = "5feaa5d6-ae5f-4c09-a331-ccfb59285476",
                             Name = "Admin",
                             NormalizedName = "ADMIN"
                         },
                         new
                         {
                             Id = "2",
-                            ConcurrencyStamp = "985c2347-71e4-4800-8653-59e427dd028f",
+                            ConcurrencyStamp = "1cad4bf2-d954-40d3-91d5-93b2adc376bf",
                             Name = "Store Owner",
                             NormalizedName = "STORE OWNER"
                         },
                         new
                         {
                             Id = "3",
-                            ConcurrencyStamp = "0fbfb8ae-6334-4638-9d4a-39793ec8a2bb",
+                            ConcurrencyStamp = "543d32a1-a087-4505-8c0b-db77e06c6787",
                             Name = "Customer",
                             NormalizedName = "CUSTOMER"
                         });

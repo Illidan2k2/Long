@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\PC\\source\\repos\\FPTLibrary\\FPTLibrary.csproj": {}
+    "C:\\Users\\Acer\\OneDrive\\Documents\\ASP Projects\\FPT\\FPTLibrary.csproj": {}
   },
   "projects": {
-    "C:\\Users\\PC\\source\\repos\\FPTLibrary\\FPTLibrary.csproj": {
+    "C:\\Users\\Acer\\OneDrive\\Documents\\ASP Projects\\FPT\\FPTLibrary.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\PC\\source\\repos\\FPTLibrary\\FPTLibrary.csproj",
+        "projectUniqueName": "C:\\Users\\Acer\\OneDrive\\Documents\\ASP Projects\\FPT\\FPTLibrary.csproj",
         "projectName": "FPTLibrary",
-        "projectPath": "C:\\Users\\PC\\source\\repos\\FPTLibrary\\FPTLibrary.csproj",
-        "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\PC\\source\\repos\\FPTLibrary\\obj\\",
+        "projectPath": "C:\\Users\\Acer\\OneDrive\\Documents\\ASP Projects\\FPT\\FPTLibrary.csproj",
+        "packagesPath": "C:\\Users\\Acer\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Acer\\OneDrive\\Documents\\ASP Projects\\FPT\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Acer\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -87,7 +87,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
         }
       }
     }
