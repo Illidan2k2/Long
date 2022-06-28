@@ -1742,3 +1742,6 @@ C:\Users\Acer\OneDrive\Documents\ASP Projects\FPT\obj\Debug\netcoreapp3.1\FPTLib
 C:\Users\Acer\OneDrive\Documents\ASP Projects\FPT\obj\Debug\netcoreapp3.1\FPTLibrary.dll
 C:\Users\Acer\OneDrive\Documents\ASP Projects\FPT\obj\Debug\netcoreapp3.1\FPTLibrary.pdb
 C:\Users\Acer\OneDrive\Documents\ASP Projects\FPT\obj\Debug\netcoreapp3.1\FPTLibrary.genruntimeconfig.cache
+C:\Users\Acer\OneDrive\Documents\ASP Projects\FPT\obj\Debug\netcoreapp3.1\Razor\Views\Order\Index.cshtml.g.cs
+C:\Users\Acer\OneDrive\Documents\ASP Projects\FPT\obj\Debug\netcoreapp3.1\Razor\Views\Order\Detail.cshtml.g.cs
+C:\Users\Acer\OneDrive\Documents\ASP Projects\FPT\obj\Debug\netcoreapp3.1\Razor\Views\Order\Create.cshtml.g.cs

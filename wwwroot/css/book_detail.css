@@ -24,4 +24,6 @@ h2{
 h3{
     padding: 10px;
     text-align: left;
+    display: inline-block;
 }
+

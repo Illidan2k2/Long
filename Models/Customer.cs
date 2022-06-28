@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 
-namespace FPTBook.Models
+namespace FPTLibrary.Models
 {
     public class Customer
     {

@@ -15,7 +15,6 @@ namespace FPTLibrary.Controllers
             context = _context;
             
         }
-
         public IActionResult Index()
         {
             var book = context.Books.ToList();
@@ -95,6 +94,7 @@ namespace FPTLibrary.Controllers
             }
             var book = context.Books.Find(id);
             context.Books.Remove(book);
+            context.SaveChanges();
             return RedirectToAction("Index");
         }
 

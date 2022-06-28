@@ -13,6 +13,26 @@
     <Compile Remove="Data\Migrations\20220620141044_first.Designer.cs" />
     <Compile Remove="Data\Migrations\20220623152123_first.cs" />
     <Compile Remove="Data\Migrations\20220623152123_first.Designer.cs" />
+    <Compile Remove="Data\Migrations\20220623155612_initial.cs" />
+    <Compile Remove="Data\Migrations\20220623155612_initial.Designer.cs" />
+    <Compile Remove="Data\Migrations\20220624043638_initial.cs" />
+    <Compile Remove="Data\Migrations\20220624043638_initial.Designer.cs" />
+    <Compile Remove="Data\Migrations\20220624044337_initial.cs" />
+    <Compile Remove="Data\Migrations\20220624044337_initial.Designer.cs" />
+    <Compile Remove="Data\Migrations\20220624052715_first.cs" />
+    <Compile Remove="Data\Migrations\20220624052715_first.Designer.cs" />
+    <Compile Remove="Data\Migrations\20220624075629_initial.cs" />
+    <Compile Remove="Data\Migrations\20220624075629_initial.Designer.cs" />
+    <Compile Remove="Data\Migrations\20220624085658_first.cs" />
+    <Compile Remove="Data\Migrations\20220624085658_first.Designer.cs" />
+    <Compile Remove="Data\Migrations\20220624093659_initial.cs" />
+    <Compile Remove="Data\Migrations\20220624093659_initial.Designer.cs" />
+    <Compile Remove="Data\Migrations\20220626071452_initial.cs" />
+    <Compile Remove="Data\Migrations\20220626071452_initial.Designer.cs" />
+    <Compile Remove="Data\Migrations\20220626093231_first.cs" />
+    <Compile Remove="Data\Migrations\20220626093231_first.Designer.cs" />
+    <Compile Remove="Data\Migrations\20220627065654_first.cs" />
+    <Compile Remove="Data\Migrations\20220627065654_first.Designer.cs" />
   </ItemGroup>
 
   <ItemGroup>

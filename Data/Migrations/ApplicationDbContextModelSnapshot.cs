@@ -51,7 +51,7 @@ namespace FPTLibrary.Data.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Admin");
+                    b.ToTable("Admins");
 
                     b.HasData(
                         new
@@ -62,86 +62,6 @@ namespace FPTLibrary.Data.Migrations
                             Mobile = "0321169923",
                             Name = "Admin",
                             Password = "admin@123"
-                        });
-                });
-
-            modelBuilder.Entity("FPTBook.Models.Customer", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int")
-                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
-
-                    b.Property<string>("Address")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(200)")
-                        .HasMaxLength(200);
-
-                    b.Property<string>("Email")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(200)")
-                        .HasMaxLength(200);
-
-                    b.Property<string>("FirstName")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(50)")
-                        .HasMaxLength(50);
-
-                    b.Property<string>("Image")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("LastName")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(50)")
-                        .HasMaxLength(50);
-
-                    b.Property<string>("Mobile")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(13)")
-                        .HasMaxLength(13);
-
-                    b.Property<string>("Password")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.HasKey("Id");
-
-                    b.ToTable("Customer");
-
-                    b.HasData(
-                        new
-                        {
-                            Id = 1,
-                            Address = "Tay Ho",
-                            Email = "phamkhacthanhphong@gmail.com",
-                            FirstName = "Phong",
-                            Image = "https://guantanamocity.org/wp-content/uploads/2020/12/huong-dan-tao-anh-dai-dien-hoat-hinh-tren-facebook-cach-tao-avatar-facebook-1.png",
-                            LastName = "Pham",
-                            Mobile = "0321169923",
-                            Password = "phong"
-                        },
-                        new
-                        {
-                            Id = 2,
-                            Address = "Nam Dinh",
-                            Email = "vubinhchuong@gmail.com",
-                            FirstName = "Chuong",
-                            Image = "https://static.toiimg.com/thumb/resizemode-4,msid-76729750,imgsize-249247,width-720/76729750.jpg",
-                            LastName = "Vu",
-                            Mobile = "0324164953",
-                            Password = "chuong"
-                        },
-                        new
-                        {
-                            Id = 3,
-                            Address = "Nam Dinh",
-                            Email = "phamhoanglong@gmail.com",
-                            FirstName = "Long",
-                            Image = "https://guantanamocity.org/wp-content/uploads/2020/12/huong-dan-tao-anh-dai-dien-hoat-hinh-tren-facebook-cach-tao-avatar-facebook-1.png",
-                            LastName = "Pham",
-                            Mobile = "0324664553",
-                            Password = "long"
                         });
                 });
 
@@ -182,7 +102,7 @@ namespace FPTLibrary.Data.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Store_Owner");
+                    b.ToTable("Store_Owners");
 
                     b.HasData(
                         new
@@ -385,6 +305,86 @@ namespace FPTLibrary.Data.Migrations
                         });
                 });
 
+            modelBuilder.Entity("FPTLibrary.Models.Customer", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+                    b.Property<string>("Address")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(200)")
+                        .HasMaxLength(200);
+
+                    b.Property<string>("Email")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(200)")
+                        .HasMaxLength(200);
+
+                    b.Property<string>("FirstName")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(50)")
+                        .HasMaxLength(50);
+
+                    b.Property<string>("Image")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("LastName")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(50)")
+                        .HasMaxLength(50);
+
+                    b.Property<string>("Mobile")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(13)")
+                        .HasMaxLength(13);
+
+                    b.Property<string>("Password")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Customers");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            Address = "Tay Ho",
+                            Email = "phamkhacthanhphong@gmail.com",
+                            FirstName = "Phong",
+                            Image = "https://guantanamocity.org/wp-content/uploads/2020/12/huong-dan-tao-anh-dai-dien-hoat-hinh-tren-facebook-cach-tao-avatar-facebook-1.png",
+                            LastName = "Pham",
+                            Mobile = "0321169923",
+                            Password = "phong"
+                        },
+                        new
+                        {
+                            Id = 2,
+                            Address = "Nam Dinh",
+                            Email = "vubinhchuong@gmail.com",
+                            FirstName = "Chuong",
+                            Image = "https://static.toiimg.com/thumb/resizemode-4,msid-76729750,imgsize-249247,width-720/76729750.jpg",
+                            LastName = "Vu",
+                            Mobile = "0324164953",
+                            Password = "chuong"
+                        },
+                        new
+                        {
+                            Id = 3,
+                            Address = "Nam Dinh",
+                            Email = "phamhoanglong@gmail.com",
+                            FirstName = "Long",
+                            Image = "https://guantanamocity.org/wp-content/uploads/2020/12/huong-dan-tao-anh-dai-dien-hoat-hinh-tren-facebook-cach-tao-avatar-facebook-1.png",
+                            LastName = "Pham",
+                            Mobile = "0324664553",
+                            Password = "long"
+                        });
+                });
+
             modelBuilder.Entity("FPTLibrary.Models.Order", b =>
                 {
                     b.Property<int>("Id")
@@ -392,14 +392,57 @@ namespace FPTLibrary.Data.Migrations
                         .HasColumnType("int")
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
-                    b.Property<int?>("CustomerId")
+                    b.Property<int>("BookId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("CustomerId")
+                        .HasColumnType("int");
+
+                    b.Property<DateTime>("Order_Date")
+                        .HasColumnType("datetime2");
+
+                    b.Property<int>("Payment")
+                        .HasColumnType("int");
+
+                    b.Property<int>("Quantity")
                         .HasColumnType("int");
 
                     b.HasKey("Id");
 
+                    b.HasIndex("BookId");
+
                     b.HasIndex("CustomerId");
 
-                    b.ToTable("Order");
+                    b.ToTable("Orders");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            BookId = 1,
+                            CustomerId = 1,
+                            Order_Date = new DateTime(2021, 10, 12, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Payment = 3,
+                            Quantity = 2
+                        },
+                        new
+                        {
+                            Id = 2,
+                            BookId = 2,
+                            CustomerId = 2,
+                            Order_Date = new DateTime(2022, 1, 2, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Payment = 0,
+                            Quantity = 20
+                        },
+                        new
+                        {
+                            Id = 3,
+                            BookId = 5,
+                            CustomerId = 1,
+                            Order_Date = new DateTime(2022, 3, 5, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Payment = 1,
+                            Quantity = 30
+                        });
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRole", b =>
@@ -432,21 +475,21 @@ namespace FPTLibrary.Data.Migrations
                         new
                         {
                             Id = "1",
-                            ConcurrencyStamp = "5feaa5d6-ae5f-4c09-a331-ccfb59285476",
+                            ConcurrencyStamp = "faaefacd-1dbd-4d7e-8c53-2dda37592b42",
                             Name = "Admin",
                             NormalizedName = "ADMIN"
                         },
                         new
                         {
                             Id = "2",
-                            ConcurrencyStamp = "1cad4bf2-d954-40d3-91d5-93b2adc376bf",
+                            ConcurrencyStamp = "75551a02-f55c-43a5-a7d4-6070c93831c8",
                             Name = "Store Owner",
                             NormalizedName = "STORE OWNER"
                         },
                         new
                         {
                             Id = "3",
-                            ConcurrencyStamp = "543d32a1-a087-4505-8c0b-db77e06c6787",
+                            ConcurrencyStamp = "3c621e23-5159-49aa-9e95-34e329eb32f0",
                             Name = "Customer",
                             NormalizedName = "CUSTOMER"
                         });
@@ -636,9 +679,17 @@ namespace FPTLibrary.Data.Migrations
 
             modelBuilder.Entity("FPTLibrary.Models.Order", b =>
                 {
-                    b.HasOne("FPTBook.Models.Customer", null)
+                    b.HasOne("FPTLibrary.Models.Book", "Book")
+                        .WithMany()
+                        .HasForeignKey("BookId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("FPTLibrary.Models.Customer", "Customer")
                         .WithMany("Orders")
-                        .HasForeignKey("CustomerId");
+                        .HasForeignKey("CustomerId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>
