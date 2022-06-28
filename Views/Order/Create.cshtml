@@ -31,12 +31,12 @@
                     </div>
                     <div class="form-group">
                         <label asp-for="Quantity"></label>
-                        <input class="form-control" asp-for="Quantity" />
+                        <input style="width: 100px;" class="form-control" asp-for="Quantity" />
                     <span class="text-black-50 text-danger" asp-validation-for="Quantity"></span>
                     </div>
                     <div class="form-group">
                         <label asp-for="Payment"></label>
-                        <select class="form-control" asp-for="Payment" asp-items="Html.GetEnumSelectList<Payment>()">
+                        <select style="width: 300px;" class="form-control" asp-for="Payment" asp-items="Html.GetEnumSelectList<Payment>()">
                             <option>Select a payment method ...</option>
                         </select>
                         <span class="text text-danger" asp-validation-for="Payment"></span>
